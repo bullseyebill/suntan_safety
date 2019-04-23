@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 body {
-    font: 20px Montserrat, sans-serif;
+    font: 20px Roboto, sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
   }
