@@ -1,21 +1,40 @@
 /* Change font as required as this is just a start font */
 
-
 body {
   font: 40px Roboto, sans-serif;
   line-height: 1.8;
   color: #f5f6f7;
 }
 
-p {
-  font-size: 16px;
-}
-/* Styling to head */
+/*p {
+  font-size: 30px;
+}*/
+
+/* Styling to pages */
 
 .hdr_1 {
- font-family: 'Permanent Marker', cursive;
- font-size: 105px;
- margin-bottom: 50px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 125px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+.txt_1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.txt_2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.hdr_2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 75px;
+  font-weight: 100;
+  margin-bottom: 50px;
 }
 
 .margin {
@@ -23,13 +42,13 @@ p {
 }
 
 .bg-1 {
-  background-color: #ffad33; /* orange */
+  background-color: #ffad33;
+  /* orange */
   color: #ffffff;
 }
 
 .bg-2 {
-  background-color: #474e5d;
-  /* Dark Blue */
+  background-image: url(/assets/img/blu_sky.jpg);
   color: #ffffff;
 }
 
@@ -61,5 +80,5 @@ p {
 }
 
 .navbar-nav li a:hover {
-  color: #1abc9c !important;
+  color: #32CD32 !important;
 }
