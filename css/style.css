@@ -6,9 +6,6 @@ body {
   color: #f5f6f7;
 }
 
-/*p {
-  font-size: 30px;
-}*/
 
 /* Styling to pages */
 
@@ -25,9 +22,14 @@ body {
 }
 
 .txt_2 {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 25px;
+  font-weight: normal;
   color: #FFFFFF;
+}
+
+.txt_3 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 65px;
 }
 
 .hdr_2 {
@@ -37,9 +39,7 @@ body {
   margin-bottom: 50px;
 }
 
-.margin {
-  margin-bottom: 45px;
-}
+
 
 .bg-1 {
   background-color: #ffad33;
@@ -62,6 +62,9 @@ body {
   background-color: #2f2f2f;
   /* Black Gray */
   color: #fff;
+}
+.txt_bx {
+  font-size: 35px
 }
 
 .container-fluid {
