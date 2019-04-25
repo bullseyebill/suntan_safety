@@ -1,7 +1,7 @@
 /* Change font as required as this is just a start font */
 
 body {
-  font: 40px Roboto, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.8;
   color: #f5f6f7;
 }
@@ -19,28 +19,33 @@ body {
   font-size: 35px;
   font-weight: bold;
   color: #FFFFFF;
+  padding-top: 50px;
 }
 
 .txt_2 {
   font-size: 25px;
   font-weight: normal;
   color: #FFFFFF;
+  padding-top: 50px;
 }
 
 .txt_3 {
   font-family: 'Permanent Marker', cursive;
-  font-size: 65px;
+  font-size: 75px;
+  color: #FFFFFF;
+  padding-bottom: 100px;
 }
 .txt_4 {
   font-family: Roboto,sans-serif;
-  font-size: 25px;
+  font-size: 45px;
+  color: #ffffff;
 }
 
 .hdr_2 {
   font-family: 'Permanent Marker', cursive;
   font-size: 75px;
   font-weight: 100;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 
@@ -57,13 +62,13 @@ body {
 }
 
 .bg-3 {
-  background-color: #ffffff;
-  /* White */
-  color: #555555;
+  background-image: url(/assets/img/beach_1.jpg);
+  /* sand */
+  color: #ffffff;
 }
 
 .bg-4 {
-  background-color: #2f2f2f;
+  background-color: #808080;
   /* Black Gray */
   color: #fff;
 }
