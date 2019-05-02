@@ -11,7 +11,7 @@ body {
 
 .hdr_1 {
   font-family: 'Permanent Marker', cursive;
-  font-size: 125px;
+  font-size: 115px;
   font-weight: 200;
   margin-bottom: 50px;
 }
@@ -27,7 +27,8 @@ body {
   font-size: 25px;
   font-weight: normal;
   color: #FFFFFF;
-  padding-top: 50px;
+  padding-top: 30px;
+  padding-bottom:45px
 }
 
 .txt_3 {
@@ -82,6 +83,8 @@ body {
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
+  margin-left:-10px;
+  margin-right:-10px;
 }
 
 .navbar {
