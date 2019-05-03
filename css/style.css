@@ -51,7 +51,9 @@ body {
   padding-bottom: 50px;
 }
 
-
+.beach_button {
+  margin-left: 850px;
+}
 
 .bg-1 {
   background-color: #ffad33;
