@@ -51,53 +51,66 @@
         <h3 class="txt_2">For most people, a UV Index of 1 or 2 is safe but for a UV Index of 3 or above protection is recommended. The highest UVI in the UK is approximately 8</h3>
         <h3 class="txt_2">Enter your location and hit 'Check Now' to see how safe you should stay</h3>
         <div class="input-group mb-3 beach_button">
-        <input type="text" class="form-control" placeholder="       Beach/Location" aria-label="Beach/Location" aria-describedby="info">
-        <div class="input-group-append">
-            <button class="btn btn-success btn-lg" type="button">CHECK NOW</button>
+            <input type="text" class="form-control" placeholder="       Beach/Location" aria-label="Beach/Location" aria-describedby="info">
+            <div class="input-group-append">
+                <button class="btn btn-success btn-lg" type="button">CHECK NOW</button>
+            </div>
         </div>
-    </div>
 
-    <!--sub 2 -->
-    <div class="container-fluid bg-21 text-center">
-        <h2 class="hdr_2">Stay SIMPLY UV Safe</h2>
-    </div>
-    </div>
-    <h3 class="txt_2">Looking at the Ultra Violet Index is a good way of how much protection from the sun is needed on a particular day.</h3>
-    <h3 class="txt_2">For most people, a UV Index of 1 or 2 is safe but for a UV Index of 3 or above protection is recommended. The highest UVI in the UK is approximately 8</h3>
-
-    <!-- Third Container (grid) -->
-    <div class="container-fluid bg-3 text-center">
-        <h3 class="txt_3">Simply UV Index</h3>
-
-        <div class="col-sm-3">
-            <i class="fas fa-glasses" style="font-size:50px;color:#00FF00;"></i>
-            <h3 class="txt_4">0-2 LOW </h3>
+        <!--sub 2 -->
+        <div class="container-fluid bg-21 text-center">
+            <h2 class="hdr_2">Current UV Index</h2>
         </div>
-        <div class="col-sm-3">
-            <i class="fas fa-cloud-sun" style="font-size:50px;color:#FFFF00;"></i>
-            <h3 class="txt_4">3-5 MODERATE </h3>
-                
+        <div id="container">
+
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+
+<circle id="sunBeam" r="20" cy="25" cx="25">
+  
+	<animate attributeName="opacity" from="1" to="0" dur="3s" repeatCount="indefinite" />
+  
+	<animate attributeName="r" attributeType="XML" from="12"  to="20" begin="0s" dur="3s" fill="remove" repeatCount="indefinite"/>
+</circle>
+  
+<circle id="sun" r="13" cy="25" cx="25" />
+  
+</svg>
+
         </div>
-        <div class="col-sm-3">
-            <i class="far fa-clock" style="font-size:50px;color:#F4A460;"></i>
-            <h3 class="txt_4">6-7 HIGH </h3>
+
+        <!-- Third Container (grid) -->
+        <div class="container-fluid bg-3 text-center">
+            <h3 class="txt_3">Simply UV Index</h3>
+
+            <div class="col-sm-3">
+                <i class="fas fa-glasses" style="font-size:50px;color:#00FF00;"></i>
+                <h3 class="txt_4">0-2 LOW </h3>
+            </div>
+            <div class="col-sm-3">
+                <i class="fas fa-cloud-sun" style="font-size:50px;color:#FFFF00;"></i>
+                <h3 class="txt_4">3-5 MODERATE </h3>
+
+            </div>
+            <div class="col-sm-3">
+                <i class="far fa-clock" style="font-size:50px;color:#F4A460;"></i>
+                <h3 class="txt_4">6-7 HIGH </h3>
+            </div>
+            <div class="col-sm-3">
+                <i class="fas fa-tshirt" style="font-size:50px;color:#FF0000;"></i>
+                <h3 class="txt_4">8-10 VERY HIGH </h3>
+            </div>
         </div>
-        <div class="col-sm-3">
-            <i class="fas fa-tshirt" style="font-size:50px;color:#FF0000;"></i>
-            <h3 class="txt_4">8-10 VERY HIGH </h3>
-        </div>
-    </div>
 
 
-    <!-- Footer -->
+        <!-- Footer -->
 
-    <footer class="container-fluid bg-4 text-center">
-        <p>Simply UV Designed by <a href="www.linkedin.com/in/rupert-james-hewson-31483549/"> RJH</a></p>
-    </footer>
+        <footer class="container-fluid bg-4 text-center">
+            <p>Simply UV Designed by <a href="www.linkedin.com/in/rupert-james-hewson-31483549/"> RJH</a></p>
+        </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.7.0/d3.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.7.0/d3.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>
