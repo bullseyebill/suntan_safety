@@ -76,7 +76,7 @@ body {
   background-color: #808080;
   /* Black Gray */
   color: #fff;
-  padding-bottom: 0px;
+  
 }
 
 .txt_bx {
@@ -88,20 +88,6 @@ body {
   padding-bottom: 20px;
   margin-left:-10px;
   margin-right:-10px;
-}
-
-.navbar {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border: 0;
-  border-radius: 0;
-  margin-bottom: 0;
-  font-size: 15px;
-  letter-spacing: 5px;
-}
-
-.navbar-nav li a:hover {
-  color: #32CD32 !important;
 }
 
 /* sun styling */
