@@ -43,53 +43,6 @@ body {
   color: #ffffff;
 }
 
-.hdr_2 {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 75px;
-  font-weight: 100;
-  padding-bottom: 20px;
-}
-
-.beach_button {
-  margin-left: 850px;
-}
-
-.bg-1 {
-  background-color: #ffad33;
-  /* orange */
-  color: #ffffff;
-}
-
-.bg-2 {
-  background-image: url(/assets/img/blu_sky.jpg);
-  color: #ffffff;
-}
-
-.bg-3 {
-  background-image: url(/assets/img/beach_1.jpg);
-  /* sand */
-  color: #ffffff;
-  margin-bottom: 30px;
-}
-
-.bg-4 {
-  background-color: #808080;
-  /* Black Gray */
-  color: #fff;
-  
-}
-
-.txt_bx {
-  font-size: 35px
-}
-
-.container-fluid {
-  
-  padding-bottom: 20px;
-  margin-left:-10px;
-  margin-right:-10px;
-}
-
 /* sun styling */
 
 #container {
@@ -107,3 +60,56 @@ body {
   stroke-width: 8;
   stroke-linecap: round;
 }
+
+.hdr_2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 75px;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+.beach_button {
+  margin-left: 50px;
+}
+
+.bg-1 {
+  background-color: #ffad33;
+  /* orange */
+  color: #ffffff;
+}
+
+.bg-2 {
+  background-image: url(/assets/img/blu_sky.jpg);
+  color: #ffffff;
+}
+
+.bg-3 {
+  background-image: url(/assets/img/beach_1.jpg);
+  /* sand */
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 10px;
+  
+}
+
+.bg-4 {
+  background-color: #808080;
+  /* Black Gray */
+  color: #fff;
+  padding-top: 1px;
+  padding-bottom: 50px;
+  
+}
+
+.txt_bx {
+  font-size: 35px
+}
+
+/*.container-fluid {
+  
+  padding-bottom: 20px;
+  margin-left:-10px;
+  margin-right:-10px;
+}*/
+
