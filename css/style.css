@@ -10,8 +10,8 @@ body {
 
 .hdr_1 {
   font-family: 'Permanent Marker', cursive;
-  font-size: 115px;
-  font-weight: 200;
+  font-size: 10rem;
+  /*font-weight: 200;*/
   margin-bottom: 50px;
 }
 
@@ -20,6 +20,7 @@ body {
   font-weight: bold;
   color: #FFFFFF;
   padding-top: 50px;
+  padding-bottom:20px;
 }
 
 .txt_2 {
