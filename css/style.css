@@ -11,8 +11,7 @@ body {
 .hdr_1 {
   font-family: 'Permanent Marker', cursive;
   font-size: 10rem;
-  /*font-weight: 200;*/
-  margin-bottom: 50px;
+  margin: 0 Auto;
 }
 
 .txt_1 {
@@ -70,7 +69,7 @@ body {
 }
 
 .beach_button {
-  margin-left: 50px;
+  margin: 0 auto;
 }
 
 .bg-1 {
