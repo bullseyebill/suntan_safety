@@ -45,20 +45,20 @@ body {
 
 /* sun styling */
 
-#sun_beam {
-  width: 50%;
-  margin: 0 auto;
-}
-
-#sun {
-  fill: #ffad33;
-}
-
-#sunBeam {
-  fill: #ffad33;
-  stroke: #faa500;
-  stroke-width: 8;
-  stroke-linecap: round;
+.circle-text {
+margin: auto;
+margin-top: 35px;
+margin-bottom: 35px;
+height: 230px; /*change this and the width
+for the size of initial circle*/
+width: 230px;
+text-align: center;
+vertical-align: middle;
+border-radius: 50%;
+/*make it pretty*/
+background: #fac134;
+color: #fff;
+font-family: Permanent Marker, cursive;
 }
 
 .hdr_2 {
