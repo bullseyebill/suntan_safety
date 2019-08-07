@@ -6,5 +6,10 @@ function fetchGoogleInformation(event) {
     return;
 }
 
+$.when(
+    $.getJSON(`https://maps.googleapis.com/maps/api/place/findplacefromtext/json?&key=AIzaSyBf7HMHGCXUjaGwoKuPbWfTlez8wLJBwVs/${place}`)
+    ).then(
+        )
+
 }
 
