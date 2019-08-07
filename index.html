@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/map-information.js"></script>
     <script type="text/javascript" src="assets/js/uv-index.js"></script>
-    
+
 
 </head>
 
@@ -37,11 +37,12 @@
         <h3 class="txt_2">Enter your location and hit 'Check Now' to see how safe you should stay</h3>
 
         <div class="input-group mb-3 beach_button">
-            <input type="text" class="form-control" id="beach-input"  placeholder="       Where are you?">
+            <input type="text" id="beach-input" placeholder="       Where are you?" oninput="fetchGoogleInformation()">
             <div class="input-group-append">
                 <button class="btn btn-success btn-lg btn-block btn-huge" type="button">CHECK NOW</button>
             </div>
         </div>
+        <div id="gm-user-data" class="clearfix"></div>
 
 
 
@@ -87,10 +88,6 @@
         <p>Simply UV Designed by <a href="www.linkedin.com/in/rupert-james-hewson-31483549/"> RJH</a></p>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.7.0/d3.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
-    <script src="text/javascript"></script>
 </body>
 
 </html>
