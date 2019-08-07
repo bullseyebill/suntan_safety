@@ -5,6 +5,6 @@ function fetchGoogleInformation(event) {
         $("#gm-user-data").html(`<h2>Please enter location</h2>`);
     return;
 }
-    
+
 }
 
