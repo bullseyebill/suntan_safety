@@ -55,7 +55,7 @@ width: 230px;
 text-align: center;
 vertical-align: middle;
 border-radius: 50%;
-/*make it pretty*/
+/*styling/color*/
 background: #fac134;
 color: #fff;
 font-family: Permanent Marker, cursive;
@@ -106,10 +106,5 @@ font-family: Permanent Marker, cursive;
   font-size: 35px
 }
 
-/*.container-fluid {
-  
-  padding-bottom: 20px;
-  margin-left:-10px;
-  margin-right:-10px;
-}*/
+
 
