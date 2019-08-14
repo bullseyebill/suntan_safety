@@ -104,12 +104,32 @@ Several runs at location data retrieval;
 ![console_4](https://user-images.githubusercontent.com/38462360/63032428-af3ad980-bead-11e9-96c3-c2543fb0ebd9.png)
 
 
+## Future Developments
 
+I had already during the project started to trial having an animated sun (svg) as the point at which the UV data would be presented.
+Initial trials where good but whilst working on the 'mobile first' approach I had several challenges to get the svg to scale!
+Here's a link to the animation...
 
+https://bullseyebill.github.io/ani_sun/
 
+This is something I feel would enhance the UX with Simply UV along with several other minor changes including more details on best SPF etc - watch this space!
 
 
 ## Credits
+
+I'll start with Jesse James Garret;
+
+http://www.jjg.net/about/ (although his page is somewhat interesting!)
+
+Web Designer magazine  - for periodical inspiration
+
+Code pen again for a great resource of ideas
+
+https://codepen.io/
+
+My mentors and....
+
+My wife for her patience...
 
 
      
