@@ -1,15 +1,27 @@
 function fetchGoogleInformation(event) {
-    
-    var place =$("beach-input").val();
+
+    var place = $("#address").val();
     if (!place) {
         $("#gm-user-data").html(`<h2>Please enter location</h2>`);
-    return;
+        return;
+    }
 }
 
-$.when(
-    $.getJSON(`https://maps.googleapis.com/maps/api/place/findplacefromtext/json?&key=AIzaSyBf7HMHGCXUjaGwoKuPbWfTlez8wLJBwVs/${place}`)
-    ).then(
-        )
 
+function getUVIndex(lat, lng) {
+
+    $.ajax({
+        type: 'GET',
+        dataType: 'json',
+        beforeSend: function(request) {
+            request.setRequestHeader('x-access-token', 'a32799ed6a34e3b2db9df5e1f53fb64c');
+        },
+        url: 'https://api.openuv.io/api/v1/uv?lat=' + lat + '&lng=' + lng,
+        success: function(response) {
+          console.log(response)
+        },
+        error: function(response) {
+            // handle error response
+        }
+    });
 }
-
