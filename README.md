@@ -80,6 +80,18 @@ https://validator.w3.org/
 
 https://www.freeformatter.com/html-validator.html
 
+### How I tested various parts of my site
+
+Using AWS I ran several unique repositories which contained elements of the sites build, this allowed me to test each section prior to building them into the main script
+
+![aws_1](https://user-images.githubusercontent.com/38462360/63030109-b19b3480-bea9-11e9-8ac6-5753b72bea27.png)
+![aws_2](https://user-images.githubusercontent.com/38462360/63030110-b19b3480-bea9-11e9-958a-363916b1c652.png)
+![aws_6](https://user-images.githubusercontent.com/38462360/63030111-b19b3480-bea9-11e9-9886-344b7f44f4a9.png)
+![aws_5](https://user-images.githubusercontent.com/38462360/63030112-b233cb00-bea9-11e9-9c61-2adb326a9980.png)
+![aws_4](https://user-images.githubusercontent.com/38462360/63030113-b233cb00-bea9-11e9-98df-fb2a25b004ff.png)
+![aws_3](https://user-images.githubusercontent.com/38462360/63030114-b233cb00-bea9-11e9-9025-8f56fd177250.png)
+
+
 
 
 
