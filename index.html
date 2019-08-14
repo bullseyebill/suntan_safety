@@ -46,8 +46,8 @@
     <div class="container-fluid bg-21 text center">
       <h2 class="hdr_2">Todays Max UV Level</h2>
     </div>
-    <div class="img-responsive circle-text">
-      <p>UV</p>
+    <div id="data" class="img-responsive circle-text">
+      
     </div>
 
   </div>
@@ -86,7 +86,7 @@
         height: 80%;
       }
 
-      /* Change if I want to alter map size in window */
+      /*  map size in window */
 
       html,
       body {
@@ -129,7 +129,7 @@
             var lng = results[0].geometry.location.lng();
             getUVIndex(lat, lng)
           }
-          console.log(lat, lng)
+         
         });
       }
     </script>
