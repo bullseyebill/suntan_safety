@@ -126,9 +126,8 @@
             var lat=results[0].geometry.location.lat();
             var lng=results[0].geometry.location.lng();
             getUVIndex(lat, lng)
-          } else {
-            alert('Geocode was not successful for the following reason: ' + status);
-          }
+          } 
+          console.log(lat, lng)
         });
       }
     </script>
