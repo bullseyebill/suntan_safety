@@ -21,7 +21,7 @@ function getUVIndex(lat, lng) {
           console.log(response)
         },
         error: function(response) {
-            // handle error response
+            // handle error response yet to be done -RH
         }
     });
 }

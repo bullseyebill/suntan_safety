@@ -46,7 +46,7 @@ to understand the best way for a user to retrieve the key information that they 
 ### Design
 
 The following images will give you an idea on how I developed my thoughts on page layout - I like using the whiteboards
-as I enhjoy the flexibility and the fact that they are always visible alongside my desk!
+as I enjoy the flexibility and the fact that they are always visible alongside my desk!
 
 ![IMG_1920](https://user-images.githubusercontent.com/38462360/63028442-bad6d200-bea6-11e9-998a-ebfac59ff119.JPG)
 ![IMG_1973](https://user-images.githubusercontent.com/38462360/63028443-bad6d200-bea6-11e9-9a8c-771d020744df.JPG)
