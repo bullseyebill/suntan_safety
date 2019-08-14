@@ -98,6 +98,9 @@ Also using console.log I was able to check that I was retrieving the correct inf
 ![console_1](https://user-images.githubusercontent.com/38462360/63032422-aea24300-bead-11e9-8529-6dab39809ba2.png)
 ![console_2](https://user-images.githubusercontent.com/38462360/63032423-af3ad980-bead-11e9-941a-1e53149b4ede.png)
 ![console_3](https://user-images.githubusercontent.com/38462360/63032424-af3ad980-bead-11e9-9f27-1140e2765481.png)
+
+Several runs at location data retrieval;
+
 ![console_4](https://user-images.githubusercontent.com/38462360/63032428-af3ad980-bead-11e9-96c3-c2543fb0ebd9.png)
 
 
