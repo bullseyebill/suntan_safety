@@ -92,6 +92,16 @@ Using AWS I ran several unique repositories which contained elements of the site
 ![aws_3](https://user-images.githubusercontent.com/38462360/63030114-b233cb00-bea9-11e9-9025-8f56fd177250.png)
 
 
+Also using console.log I was able to check that I was retrieving the correct information in JSON, such as Location - from maps
+(lat/lng) Then having passed this to the second API I could retrieve the UV data
+
+![console_1](https://user-images.githubusercontent.com/38462360/63032422-aea24300-bead-11e9-8529-6dab39809ba2.png)
+![console_2](https://user-images.githubusercontent.com/38462360/63032423-af3ad980-bead-11e9-941a-1e53149b4ede.png)
+![console_3](https://user-images.githubusercontent.com/38462360/63032424-af3ad980-bead-11e9-9f27-1140e2765481.png)
+![console_4](https://user-images.githubusercontent.com/38462360/63032428-af3ad980-bead-11e9-96c3-c2543fb0ebd9.png)
+
+
+
 
 
 
