@@ -9,20 +9,22 @@ function fetchGoogleInformation(event) {
 
 
 function getUVIndex(lat, lng) {
-    var lat = $('#lat').val();
-    var lng = $('#lng').val();
     $.ajax({
         type: 'GET',
         dataType: 'json',
+        async: true,
         beforeSend: function(request) {
             request.setRequestHeader('x-access-token', 'a32799ed6a34e3b2db9df5e1f53fb64c');
         },
         url: 'https://api.openuv.io/api/v1/uv?lat=' + lat + '&lng=' + lng,
         success: function(response) {
-            console.log(response)
+            console.log(response);
+            console.log(response.result.uv_max);
+            var result = response.result.uk_max;
+            return result;
         },
         error: function(response) {
-            // handle error response yet to be done -RH
+            return 0;
         }
     });
 }
