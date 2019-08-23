@@ -2,14 +2,15 @@ function fetchGoogleInformation(event) {
 
     var place = $("#address").val();
     if (!place) {
-        $("#gm-user-data").html(`<h2>Please enter location</h2>`);
+        $("#address").html(`<h2>Please enter location</h2>`);
         return;
     }
 }
 
 
 function getUVIndex(lat, lng) {
-
+    var lat = $('#lat').val();
+    var lng = $('#lng').val();
     $.ajax({
         type: 'GET',
         dataType: 'json',
@@ -18,7 +19,7 @@ function getUVIndex(lat, lng) {
         },
         url: 'https://api.openuv.io/api/v1/uv?lat=' + lat + '&lng=' + lng,
         success: function(response) {
-           console.log(result)
+            console.log(response)
         },
         error: function(response) {
             // handle error response yet to be done -RH

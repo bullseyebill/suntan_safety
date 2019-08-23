@@ -12,7 +12,9 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
   <link rel="stylesheet" href="css/style.css" type="text/css" />
-
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" /> 
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" /> <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
 
 </head>
@@ -33,13 +35,13 @@
     <h3 class="txt_2">For most people, a UV Index of 1 or 2 is safe but for a UV Index of 3 or above protection is recommended. The highest UVI in the UK is approximately 8</h3>
     <h3 class="txt_2">Enter your location and hit 'Check Now' to see how safe you should stay</h3>
 
-    <div class="input-group mb-3 beach_button">
+    <div class="input-group mb-3 beach_button" id="gm-user-data">
       <input id="address" placeholder="Where are you?" style="text-align: center; color: blue;">
       <div class="input-group-append">
         <button class="btn btn-success btn-lg btn-block btn-huge" input id="submit" type="button">CHECK NOW</button>
       </div>
     </div>
-    <div id="gm-user-data" class="clearfix"></div>
+    <!--<div id="gm-user-data" class="clearfix"></div> -->
 
 
     <!--sub 2 -->
@@ -128,7 +130,8 @@
             var lat = results[0].geometry.location.lat();
             var lng = results[0].geometry.location.lng();
             getUVIndex(lat, lng)
-          }
+           /* console.log(lat, lng) */
+           }
          
         });
       }
