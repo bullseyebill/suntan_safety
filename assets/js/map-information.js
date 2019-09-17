@@ -12,7 +12,7 @@ function getUVIndex(lat, lng) {
     $.ajax({
         type: 'GET',
         dataType: 'json',
-        async: true,
+        async: false,
         beforeSend: function(request) {
             request.setRequestHeader('x-access-token', 'a32799ed6a34e3b2db9df5e1f53fb64c');
         },
@@ -20,7 +20,7 @@ function getUVIndex(lat, lng) {
         success: function(response) {
             console.log(response);
             console.log(response.result.uv_max);
-            var result = response.result.uk_max;
+            var result = response.result.uv_max;
             return result;
         },
         error: function(response) {
