@@ -21,6 +21,12 @@ function getUVIndex(lat, lng) {
             console.log(response);
             console.log(response.result.uv_max);
             var result = response.result.uv_max;
+            var uvindexelement = document.createElement("DIV");
+            uvindexelement.appendChild(document.createTextNode(result));
+            var dataElement=document.getElementById("data");
+            dataElement.innerHTML="";
+            dataElement.appendChild(uvindexelement);
+            //document.getElementById("data").appendChild(uvindexelement);
             return result;
         },
         error: function(response) {

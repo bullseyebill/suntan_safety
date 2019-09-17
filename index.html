@@ -130,11 +130,11 @@
             var lat = results[0].geometry.location.lat();
             var lng = results[0].geometry.location.lng();
             var uvindex = getUVIndex (lat,lng);
-            while (typeof uvindex==="undefined");
-            var uvindexelement = document.createElement("DIV");
-            uvindexelement.appendChild(document.createTextNode(uvindex));
             
-            document.getElementById("data").appendChild(uvindexelement);
+            //var uvindexelement = document.createElement("DIV");
+            //uvindexelement.appendChild(document.createTextNode(uvindex));
+            
+            //document.getElementById("data").appendChild(uvindexelement);
            }
          
         });
