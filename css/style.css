@@ -48,11 +48,11 @@ body {
 
 .circle-text {
 margin: auto;
-margin-top: 35px;
-margin-bottom: 35px;
-height: 240px; /*change this and the width
+margin-top: 5px;
+margin-bottom: 40px;
+height: 280px; /*change this and the width
 for the size of initial circle*/
-width: 230px;
+width: 280px;
 text-align: center;
 vertical-align: middle;
 border-radius: 50%;
@@ -60,13 +60,13 @@ border-radius: 50%;
 background: #fac134;
 color: #fff;
 font-family: 'Open Sans', sans-serif;
-font-size: 90px;
+font-size: 150px;
 }
 
 .hdr_2 {
   font-family: 'Permanent Marker', cursive;
   font-size: 75px;
-  font-weight: 100;
+  font-weight: 130px;
   padding-bottom: 20px;
 }
 
