@@ -7,6 +7,7 @@ function fetchGoogleInformation(event) {
     }
 }
 
+/* Data handling with lat and long from Google map into UV api */
 
 function getUVIndex(lat, lng) {
     $.ajax({
@@ -22,11 +23,14 @@ function getUVIndex(lat, lng) {
             console.log(response.result.uv_max);
             var result = response.result.uv_max;
             var uvindexelement = document.createElement("DIV");
-            uvindexelement.appendChild(document.createTextNode(result));
+            
+/* math.ceil is used to round up the number returned from the uv api */   
+
+            uvindexelement.appendChild(document.createTextNode(Math.ceil(result)));
             var dataElement=document.getElementById("data");
             dataElement.innerHTML="";
             dataElement.appendChild(uvindexelement);
-            //document.getElementById("data").appendChild(uvindexelement);
+            
             return result;
         },
         error: function(response) {

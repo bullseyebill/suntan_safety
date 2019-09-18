@@ -1,7 +1,7 @@
 #   PROJECT UV!
 
 ## Simply UV
-An interactive web page to allow the user to input there current location and check the maximum Ultra Violet level for that location.
+An interactive web page to allow the user to input there current location and check the maximum Ultra Violet level for that location (at solar noon).
 Along with the maximum expected UV for there chosen location there is also a simple guide to the amount of SPF that should be applied.
 
 ## Deployment Link
@@ -102,6 +102,8 @@ Also using console.log I was able to check that I was retrieving the correct inf
 Several runs at location data retrieval;
 
 ![console_4](https://user-images.githubusercontent.com/38462360/63032428-af3ad980-bead-11e9-96c3-c2543fb0ebd9.png)
+
+Most of the code was developed on Visual Studio Code
 
 
 ## Future Developments
